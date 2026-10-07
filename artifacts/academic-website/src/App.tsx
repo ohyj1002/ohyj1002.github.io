@@ -51,7 +51,9 @@ function App() {
             <p className="section-intro">A short introduction</p>
             <div className="editable-prompt">
               <p>{profile.bioPrompt}</p>
-              <p className="helper-copy">Replace this prompt with an approximately 100-word bio based on supplied source material.</p>
+              {profile.bioPrompt.startsWith('[TO ADD:') && (
+                <p className="helper-copy">Replace this prompt with an approximately 100-word bio based on supplied source material.</p>
+              )}
             </div>
           </div>
         </section>
@@ -63,7 +65,9 @@ function App() {
             <p className="section-intro">Research interests and current work</p>
             <div className="editable-prompt research-prompt">
               <p>{profile.researchPrompt}</p>
-              <p className="helper-copy">Add only verified themes, project descriptions, or current work here.</p>
+              {profile.researchPrompt.startsWith('[TO ADD:') && (
+                <p className="helper-copy">Add only verified themes, project descriptions, or current work here.</p>
+              )}
             </div>
             <div className="publications-heading">
               <h3>Selected publications</h3>
@@ -119,9 +123,11 @@ function App() {
                 <span className="cv-state">Not yet available</span>
               </div>
             )}
-            <p id="cv-missing-note" className="helper-copy cv-note">
-              Add the supplied PDF as <code>public/cv.pdf</code>, then set <code>cvPdf: 'cv.pdf'</code> in <code>src/content.ts</code> to enable the link.
-            </p>
+            {!profile.cvPdf && (
+              <p id="cv-missing-note" className="helper-copy cv-note">
+                Add the supplied PDF as <code>public/cv.pdf</code>, then set <code>cvPdf: 'cv.pdf'</code> in <code>src/content.ts</code> to enable the link.
+              </p>
+            )}
           </div>
         </section>
 
