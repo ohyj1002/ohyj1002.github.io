@@ -1,0 +1,51 @@
+Add this study as a prominent featured research panel near the top of my existing Research page, above the publication list.
+
+Keep the current MSU-inspired design. Use a clean layout with a headline, short introduction, three study facts, and key findings. Add an accessible “Read study details” expandable section for the method, contribution, and limitations.
+
+Use the following website copy:
+
+Headline:
+How do people build relationships with AI chatbots?
+
+Study label:
+Systematic review | Published 2026
+
+Introduction:
+What makes a chatbot feel like a trusted or supportive communication partner? Our systematic review examines how relationships with AI chatbots develop and how those relationships help explain chatbots’ social influence.
+
+Display these three facts with clear labels:
+- 68 papers included
+- 78 studies reviewed
+- 6 databases searched
+
+Key findings:
+
+1. Trust and support help explain chatbot influence.
+Across the reviewed studies, trust and perceived social support frequently helped explain links between chatbot interactions and outcomes such as emotional responses, willingness to follow recommendations, and intentions to continue using chatbots.
+
+2. How chatbots communicate deserves greater attention.
+Empathy and responsiveness were associated with favorable relational outcomes. However, message characteristics received less research attention than chatbot design features.
+
+3. Long-term relationships remain an open question.
+Much of the evidence came from short-term studies. Inconsistent definitions and measures, along with limited cultural coverage, make it difficult to determine how these relationships develop and endure.
+
+Place the following content inside “Read study details”:
+
+What we did:
+Following PRISMA guidelines, we searched six databases and identified 16,358 records. We synthesized findings from 68 papers reporting 78 studies, examining user characteristics, chatbot features, communication, relational outcomes, and social influence.
+
+What this contributes:
+We propose the Human–AI Chatbot Relationship (HAIR) Framework of Social Influence. It positions relational perceptions and behaviors as pathways connecting user, chatbot, and message characteristics to social influence outcomes.
+
+Limitations:
+This review synthesizes varied findings rather than estimating a single pooled effect. Differences in study quality, measures, and interaction duration limit firm conclusions about causality and lasting relationships.
+
+Include this citation:
+Oh, Y. J., Hu, J. M., Zhu, R., Lim, J. I., & Zhang, X. (2026). Artificial intelligence chatbots as relational agents: A systematic review of human–AI chatbot relationships. International Journal of Human–Computer Interaction.
+
+Add a “Read the paper” link to:
+https://doi.org/10.1080/10447318.2026.2648799
+
+Preserve the factual meaning of this copy. Do not invent statistics or create charts suggesting effect sizes. Clearly distinguish the number of papers from the number of studies.
+
+Keep the feature responsive and compatible with the existing static website. Check the expandable section and paper link, then show the updated Preview. Do not publish yet.

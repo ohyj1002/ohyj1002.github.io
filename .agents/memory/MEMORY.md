@@ -1,0 +1,1 @@
+- [Python PDF tooling side effects](python-pdf-tooling-side-effects.md) — one-off PDF processing can change `.replit` and create Python scaffolding; remove it when the app does not need it.

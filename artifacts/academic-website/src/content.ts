@@ -6,12 +6,12 @@ export const profile = {
   name: 'Yoo Jung (Erika) Oh',
   role: 'Assistant Professor',
   institution: 'Department of Communication · Michigan State University',
-  bioPrompt:
+  biography:
     'Yoo Jung (Erika) Oh is an Assistant Professor in the Department of Communication at Michigan State University. Her research spans human-AI communication and human-computer interaction, with particular attention to AI chatbots, strategic communication, health communication, public health, and health technologies. Her work examines chatbot and voice-assistant interactions, health messaging, and technology-supported health behavior. She earned a PhD in Communication with a Designated Emphasis in Computational Social Science from the University of California, Davis (2023), an MA in Journalism and Mass Communication from Korea University (2018), and a BA in English Interpretation and Translation & Japanese Area Studies from Hankuk University of Foreign Studies (2016).',
-  researchPrompt:
+  researchSummary:
     'Human-AI communication; human-computer interaction; artificial intelligence (AI) chatbots; strategic communication; health communication; public health; and health technologies.',
   email: 'ohyoojun@msu.edu',
-  photo: null as string | null,
+  photo: 'images/profile.jpg',
   cvPdf: 'cv.pdf',
   academicProfiles: [
     {
@@ -21,11 +21,57 @@ export const profile = {
   ],
 } as const;
 
+export const featuredStudy = {
+  headline: 'How do people build relationships with AI chatbots?',
+  label: 'Systematic review | Published 2026',
+  introduction:
+    'What makes a chatbot feel like a trusted or supportive communication partner? Our systematic review examines how relationships with AI chatbots develop and how those relationships help explain chatbots’ social influence.',
+  facts: [
+    { value: '68', label: 'Papers included' },
+    { value: '78', label: 'Studies reviewed' },
+    { value: '6', label: 'Databases searched' },
+  ],
+  findings: [
+    {
+      title: 'Trust and support help explain chatbot influence.',
+      description:
+        'Across the reviewed studies, trust and perceived social support frequently helped explain links between chatbot interactions and outcomes such as emotional responses, willingness to follow recommendations, and intentions to continue using chatbots.',
+    },
+    {
+      title: 'How chatbots communicate deserves greater attention.',
+      description:
+        'Empathy and responsiveness were associated with favorable relational outcomes. However, message characteristics received less research attention than chatbot design features.',
+    },
+    {
+      title: 'Long-term relationships remain an open question.',
+      description:
+        'Much of the evidence came from short-term studies. Inconsistent definitions and measures, along with limited cultural coverage, make it difficult to determine how these relationships develop and endure.',
+    },
+  ],
+  method:
+    'Following PRISMA guidelines, we searched six databases and identified 16,358 records. We synthesized findings from 68 papers reporting 78 studies, examining user characteristics, chatbot features, communication, relational outcomes, and social influence.',
+  contribution:
+    'We propose the Human–AI Chatbot Relationship (HAIR) Framework of Social Influence. It positions relational perceptions and behaviors as pathways connecting user, chatbot, and message characteristics to social influence outcomes.',
+  frameworkExplanation:
+    'Our framework proposes that characteristics of users, chatbots, and their messages shape relational perceptions and behaviors. These relational processes can help explain how chatbot interactions influence people’s perceptions and behavior.',
+  limitations:
+    'This review synthesizes varied findings rather than estimating a single pooled effect. Differences in study quality, measures, and interaction duration limit firm conclusions about causality and lasting relationships.',
+  citation:
+    'Oh, Y. J., Hu, J. M., Zhu, R., Lim, J. I., & Zhang, X. (2026). Artificial intelligence chatbots as relational agents: A systematic review of human–AI chatbot relationships. International Journal of Human–Computer Interaction.',
+  paperUrl: 'https://doi.org/10.1080/10447318.2026.2648799',
+  figure: {
+    src: 'images/figure-1-hair-framework.png',
+    alt: 'Framework linking user, message, and chatbot characteristics to relational perceptions and behaviors, followed by socially influenced perceptions and behaviors.',
+    caption: 'Figure 1. Human–AI relationship framework of social influence.',
+    source: 'Oh et al. (2026)',
+  },
+} as const;
+
 export const navigation = [
-  { label: 'About', href: '#about' },
-  { label: 'Research', href: '#research' },
-  { label: 'CV', href: '#cv' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'About', page: 'about' },
+  { label: 'Research', page: 'research' },
+  { label: 'CV', page: 'cv' },
+  { label: 'Contact', page: 'contact' },
 ] as const;
 
 export const publications: ReadonlyArray<{

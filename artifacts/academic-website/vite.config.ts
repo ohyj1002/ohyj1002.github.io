@@ -61,6 +61,14 @@ export default defineConfig({
   },
   root: path.resolve(import.meta.dirname),
   build: {
+    rollupOptions: {
+      input: {
+        about: path.resolve(import.meta.dirname, 'index.html'),
+        research: path.resolve(import.meta.dirname, 'research/index.html'),
+        cv: path.resolve(import.meta.dirname, 'cv/index.html'),
+        contact: path.resolve(import.meta.dirname, 'contact/index.html'),
+      },
+    },
     outDir: path.resolve(import.meta.dirname, 'dist/public'),
     emptyOutDir: true,
   },
