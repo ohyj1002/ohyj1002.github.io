@@ -1,0 +1,32 @@
+Build a personal academic website using my attached CV as the source for my name, academic background, current position, research, publications, and professional contact information. Extract and organize this information so I do not need to retype it.
+
+Create a simple, polished design inspired by Michigan State University’s green-and-white color palette:
+- Spartan Green (#18453B) for headings, navigation, and accents.
+- White background with dark, readable body text.
+- Clean typography, generous spacing, and subtle section dividers.
+- A professional academic appearance with minimal decoration.
+- Responsive layouts for both phones and laptops.
+
+Create one page with navigation to four sections:
+
+1. About
+Display my name, current academic role, and institution prominently. Draft a concise biography of approximately 100 words using my CV. Include my photograph if attached; otherwise, use a text-focused layout.
+
+2. Research
+Summarize the research themes supported by my CV and display three recent publications as selected work. Preserve publication titles, author lists, and years exactly. Include publication links only when supplied in my materials.
+
+3. CV
+Include a clearly labeled “View CV” link that opens my actual attached PDF. Store the PDF in the project so the link works after publishing.
+
+4. Contact
+Display my professional email as text and a clickable email link. Include academic profile links if they appear in my CV.
+
+Use only facts supported by my materials. Do not invent credentials, projects, publications, or URLs. If something is missing or ambiguous, mark it [TO ADD] and tell me what needs clarification. Include only professional contact details intended for public display.
+
+Keep the implementation simple and portable: use HTML, CSS, and minimal JavaScript. The website should work as static files without a running backend and be suitable for later hosting on GitHub Pages.
+
+This first version should have no admin login, database, contact form, or AI chatbot.
+
+Build the website and show it in Preview. Check the navigation, mobile layout, and CV link. Then briefly explain any missing information and how I can update the text, photograph, and CV.
+
+Do not publish yet.

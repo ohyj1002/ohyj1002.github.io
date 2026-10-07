@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Personal Academic Website"
+description = "A responsive, static personal academic website with About, Research, CV, and Contact sections. CV-specific content remains marked for completion until the CV is provided."
+version = "1.0.0"
+id = "artifacts/academic-website"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 24853
+
+[services.development]
+run = "pnpm --filter @workspace/academic-website run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/academic-website", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/academic-website/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "24853"
+BASE_PATH = "/"
