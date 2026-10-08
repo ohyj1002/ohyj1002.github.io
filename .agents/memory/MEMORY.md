@@ -1,1 +1,2 @@
 - [Python PDF tooling side effects](python-pdf-tooling-side-effects.md) — one-off PDF processing can change `.replit` and create Python scaffolding; remove it when the app does not need it.
+- [GitHub Pages publishing](github-pages-publishing.md) — Pages is already configured to publish through GitHub Actions for this website.
