@@ -7,7 +7,7 @@ export const profile = {
   role: 'Assistant Professor',
   institution: 'Department of Communication · Michigan State University',
   biography:
-    'Yoo Jung (Erika) Oh is an Assistant Professor in the Department of Communication at Michigan State University. Her research spans human-AI communication and human-computer interaction, with particular attention to AI chatbots, strategic communication, health communication, public health, and health technologies. Her work examines chatbot and voice-assistant interactions, health messaging, and technology-supported health behavior. She earned a PhD in Communication with a Designated Emphasis in Computational Social Science from the University of California, Davis (2023), an MA in Journalism and Mass Communication from Korea University (2018), and a BA in English Interpretation and Translation & Japanese Area Studies from Hankuk University of Foreign Studies (2016).',
+    'Yoo Jung (Erika) Oh is an Assistant Professor in the Department of Communication at Michigan State University. Her research spans human-AI communication and human-computer interaction, with particular attention to AI chatbots, strategic communication, health communication, public health, and health technologies. Her work examines chatbot and voice-assistant interactions, health messaging, and technology-supported health behavior. She earned a PhD in Communication with a Designated Emphasis in Computational Social Science from the University of California, Davis (2023).',
   researchSummary:
     'Human-AI communication; human-computer interaction; artificial intelligence (AI) chatbots; strategic communication; health communication; public health; and health technologies.',
   email: 'ohyoojun@msu.edu',
